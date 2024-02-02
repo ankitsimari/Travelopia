@@ -2,6 +2,8 @@
 
 Welcome to the Travelopia React App! This is a simple React application that includes a navigation bar, a hero section, and a footer. Below, you'll find a breakdown of the components and their functionalities.
 
+ [Live Link](https://example.com/travelopia-react-app).
+
 ## Components
 
 ### 1. Navbar (Navbar.js)
