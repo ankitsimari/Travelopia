@@ -4,7 +4,7 @@ Welcome to the Travelopia React App! This is a simple React application that inc
 
  [Live Link](https://travelopia-rho.vercel.app/).
 
- ![Image](https://travelopia-rho.vercel.app/)
+ ![Image](https://i.ibb.co/ggNzzFq/Screenshot-2024-02-02-230729.png)
 ## Components
 
 ### 1. Navbar (Navbar.js)
