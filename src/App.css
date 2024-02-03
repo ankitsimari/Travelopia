@@ -116,6 +116,7 @@ nav .menu span {
   width: 100px;
   margin-top: 20px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .text .lastWord {
