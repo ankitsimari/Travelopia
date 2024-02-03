@@ -12,7 +12,7 @@ export const Navbar = () => {
   return (
     <nav>
       {/* Title */}
-      <Link to="/" className="title">
+      <Link to="/" className="title" onClick={handleClose}>
         <span className="firstText">T</span>ravelopia
       </Link>
 
