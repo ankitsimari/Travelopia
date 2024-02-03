@@ -11,14 +11,19 @@ export const Navbar = () => {
 
   return (
     <nav>
+      {/* Title */}
       <Link to="/" className="title">
         <span className="firstText">T</span>ravelopia
       </Link>
+
+      {/* Hamburger Menu */}
       <div className="menu" onClick={() => setMenuOpen(prev=>!prev)}>
         <span></span>
         <span></span>
         <span></span>
       </div>
+
+      {/* All Links */}
       <ul className={menuOpen ? "open" : ""}>
         <li>
           <NavLink onClick={handleClose}  to="/about">About</NavLink>

@@ -76,43 +76,7 @@ nav .menu span {
   border-radius: 0.2rem;
 }
 
-@media (max-width: 720px) {
-  nav .menu {
-    display: flex;
-  }
 
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  nav .title {
-    margin-left: 20px;
-  }
-
-  nav ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 0.25rem;
-  }
-
-  nav ul.open {
-    display: flex;
-    position: absolute;
-    top: 100px;
-    border-radius: 0px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    justify-content: center;
-    padding: 10px 0px;
-  }
-
-  nav ul li a {
-    margin: 0.2rem 0.5rem;
-  }
-}
 
 /* hero */
 .hero {
@@ -157,6 +121,8 @@ nav .menu span {
 .text .lastWord {
   color: var(--primary);
 }
+
+/* overlay */
 
 .overlay {
   position: absolute;
@@ -239,4 +205,46 @@ footer {
   padding: 0;
   display: grid;
   place-content: center;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 720px) {
+  nav .menu {
+    display: flex;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  nav .title {
+    margin-left: 20px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  nav ul.open {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    border-radius: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
 }
